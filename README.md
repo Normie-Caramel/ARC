@@ -4,6 +4,7 @@ Adaptive Rich-kernelized Contrastive Learning for Capacity Enhancement in Collab
 Run the following commands to reproduce the results. The results reported in the paper were generated using random seeds from 2025 to 2034. Please also remember to update the model name in the following two lines in `run.py`.
 
 `config = Config(model=BPR, config_file_list=['config.yaml'])`
+
 `model = BPR(config, train_data.dataset).to(config['device'])`
 
 For SCCF:
